@@ -1,0 +1,436 @@
+@prefix bldg: <http://example.org/building#> .
+@prefix s223: <http://data.ashrae.org/standard223#> .
+@prefix visu: <http://example.org/visualization#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+bldg:CczPzXtL a s223:OutletConnectionPoint ;
+    s223:hasMedium s223:Water-HotWater ;
+    s223:isConnectionPointOf bldg:NkSrPqWi ;
+    visu:relativeX "1.0"^^xsd:float ;
+    visu:relativeY "0.5"^^xsd:float .
+
+bldg:DOSnQJyh a s223:InletConnectionPoint ;
+    s223:hasMedium s223:Water-HotWater ;
+    s223:isConnectionPointOf bldg:aioKqgeP ;
+    visu:relativeX "0.0"^^xsd:float ;
+    visu:relativeY "0.5"^^xsd:float .
+
+bldg:DwnpnWeu a s223:OutletConnectionPoint ;
+    s223:hasMedium s223:Fluid-Air ;
+    s223:isConnectionPointOf bldg:VqBvGDls ;
+    visu:relativeX "1"^^xsd:float ;
+    visu:relativeY "0.5"^^xsd:float .
+
+bldg:GXxJmKWM a s223:OutletConnectionPoint ;
+    s223:hasMedium s223:Fluid-Water ;
+    s223:isConnectionPointOf bldg:yXCRWYXY ;
+    visu:relativeX "1.0"^^xsd:float ;
+    visu:relativeY "0.5"^^xsd:float .
+
+bldg:GpYGtjFE a s223:InletConnectionPoint ;
+    s223:hasMedium s223:Fluid-Air ;
+    s223:isConnectionPointOf bldg:VqBvGDls ;
+    visu:relativeX "0"^^xsd:float ;
+    visu:relativeY "0.5"^^xsd:float .
+
+bldg:HNGjBhoN a s223:OutletConnectionPoint ;
+    s223:hasMedium s223:Fluid-Water ;
+    s223:isConnectionPointOf bldg:gRXmHPQP ;
+    visu:relativeX "0.5"^^xsd:float ;
+    visu:relativeY "1.0"^^xsd:float .
+
+bldg:IeDIrqry a s223:InletConnectionPoint ;
+    s223:hasMedium s223:Fluid-Water ;
+    s223:isConnectionPointOf bldg:pRkmGCdj ;
+    visu:relativeX "0.0"^^xsd:float ;
+    visu:relativeY "0.5"^^xsd:float .
+
+bldg:NIcyQBPL a s223:InletConnectionPoint ;
+    s223:hasMedium s223:Water-HotWater ;
+    s223:isConnectionPointOf bldg:mLXSbtgB ;
+    visu:relativeX "0.0"^^xsd:float ;
+    visu:relativeY "0.5"^^xsd:float .
+
+bldg:NWHlZMwW a s223:OutletConnectionPoint ;
+    s223:hasMedium s223:Fluid-Water ;
+    s223:isConnectionPointOf bldg:PCBqUOfw ;
+    visu:relativeX "0.5"^^xsd:float ;
+    visu:relativeY "0.0"^^xsd:float .
+
+bldg:ltMEHLzH a s223:OutletConnectionPoint ;
+    s223:hasMedium s223:Water-HotWater ;
+    s223:isConnectionPointOf bldg:IofwFgce ;
+    visu:relativeX "0.5"^^xsd:float ;
+    visu:relativeY "0.0"^^xsd:float .
+
+bldg:ApsgnCWn a s223:InletConnectionPoint ;
+    s223:connectsThrough bldg:ynkzNGzj ;
+    s223:hasMedium s223:Fluid-Water ;
+    s223:isConnectionPointOf bldg:yXCRWYXY ;
+    visu:relativeX "0.0"^^xsd:float ;
+    visu:relativeY "0.5"^^xsd:float .
+
+bldg:CvwBhsMp a s223:Pump ;
+    s223:hasConnectionPoint bldg:TtnRnvSA,
+        bldg:iwhkfrfa ;
+    visu:positionX "650.0"^^xsd:float ;
+    visu:positionY "600.0"^^xsd:float ;
+    visu:rotation 270.0 .
+
+bldg:DhVcypLw a s223:InletConnectionPoint ;
+    s223:connectsThrough bldg:YIyWLlGd ;
+    s223:hasMedium s223:Fluid-Water ;
+    s223:isConnectionPointOf bldg:fTRIdClR ;
+    visu:relativeX "0.5"^^xsd:float ;
+    visu:relativeY "1"^^xsd:float .
+
+bldg:FbqqkLMr a s223:Pipe ;
+    s223:connectsAt bldg:PeOTLbSC,
+        bldg:lALeiXGk .
+
+bldg:GGxShzKv a s223:OutletConnectionPoint ;
+    s223:connectsThrough bldg:NXfYonxe ;
+    s223:hasMedium s223:Fluid-Water ;
+    s223:isConnectionPointOf bldg:VqBvGDls ;
+    visu:relativeX "0.7"^^xsd:float ;
+    visu:relativeY "1"^^xsd:float .
+
+bldg:GXnqFEZS a s223:Pipe ;
+    s223:connectsAt bldg:csNjMZkV,
+        bldg:skPRrjif .
+
+bldg:HsjrAIUM a s223:InletConnectionPoint ;
+    s223:connectsThrough bldg:ODHkHgsd ;
+    s223:hasMedium s223:Water-HotWater ;
+    s223:isConnectionPointOf bldg:NkSrPqWi ;
+    visu:relativeX "0.0"^^xsd:float ;
+    visu:relativeY "0.5"^^xsd:float .
+
+bldg:IuqcIhRP a s223:InletConnectionPoint ;
+    s223:connectsThrough bldg:wskwcAmY ;
+    s223:hasMedium s223:Fluid-Water ;
+    s223:isConnectionPointOf bldg:FZxFhkxF ;
+    visu:relativeX "0.5"^^xsd:float ;
+    visu:relativeY "1.0"^^xsd:float .
+
+bldg:JhCTuAFw a s223:OutletConnectionPoint ;
+    s223:connectsThrough bldg:XXgUGuJc ;
+    s223:hasMedium s223:Water-HotWater ;
+    s223:isConnectionPointOf bldg:mLXSbtgB ;
+    visu:relativeX "0.0"^^xsd:float ;
+    visu:relativeY "0.5"^^xsd:float .
+
+bldg:KYBDUWzf a s223:InletConnectionPoint ;
+    s223:connectsThrough bldg:ufIUsDFz ;
+    s223:hasMedium s223:Water-HotWater ;
+    s223:isConnectionPointOf bldg:IofwFgce ;
+    visu:relativeX "0.0"^^xsd:float ;
+    visu:relativeY "0.5"^^xsd:float .
+
+bldg:MPhlkVpQ a s223:OutletConnectionPoint ;
+    s223:connectsThrough bldg:ODHkHgsd ;
+    s223:hasMedium s223:Water-HotWater ;
+    s223:isConnectionPointOf bldg:IofwFgce ;
+    visu:relativeX "1.0"^^xsd:float ;
+    visu:relativeY "0.5"^^xsd:float .
+
+bldg:NXfYonxe a s223:Pipe ;
+    s223:connectsAt bldg:GGxShzKv,
+        bldg:vjrpmMlB .
+
+bldg:NkSrPqWi a s223:Junction ;
+    s223:hasConnectionPoint bldg:CczPzXtL,
+        bldg:HsjrAIUM ;
+    s223:hasRole s223:Role-Supply ;
+    visu:positionX "965.0"^^xsd:float ;
+    visu:positionY "815.0"^^xsd:float ;
+    visu:rotation 0.0 .
+
+bldg:ODHkHgsd a s223:Pipe ;
+    s223:connectsAt bldg:HsjrAIUM,
+        bldg:MPhlkVpQ .
+
+bldg:OyPTkhFT a s223:InletConnectionPoint ;
+    s223:connectsThrough bldg:RlOJtnxj ;
+    s223:hasMedium s223:Water-HotWater ;
+    s223:isConnectionPointOf bldg:oQiuSoTO ;
+    visu:relativeX "0.0"^^xsd:float ;
+    visu:relativeY "0.5"^^xsd:float .
+
+bldg:PGhSDiOv a s223:OutletConnectionPoint ;
+    s223:connectsThrough bldg:ynkzNGzj ;
+    s223:hasMedium s223:Fluid-Water ;
+    s223:isConnectionPointOf bldg:gRXmHPQP ;
+    visu:relativeX "1.0"^^xsd:float ;
+    visu:relativeY "0.5"^^xsd:float .
+
+bldg:PKhYDflC a s223:InletConnectionPoint ;
+    s223:connectsThrough bldg:ysGlOqjn ;
+    s223:hasMedium s223:Water-HotWater ;
+    s223:isConnectionPointOf bldg:fTRIdClR ;
+    visu:relativeX "0"^^xsd:float ;
+    visu:relativeY "0.5"^^xsd:float .
+
+bldg:PeOTLbSC a s223:InletConnectionPoint ;
+    s223:connectsThrough bldg:FbqqkLMr ;
+    s223:hasMedium s223:Fluid-Water ;
+    s223:isConnectionPointOf bldg:FZxFhkxF ;
+    visu:relativeX "0.0"^^xsd:float ;
+    visu:relativeY "0.5"^^xsd:float .
+
+bldg:RlOJtnxj a s223:Pipe ;
+    s223:connectsAt bldg:OyPTkhFT,
+        bldg:fqzleYbk .
+
+bldg:RqFJpHFa a s223:OutletConnectionPoint ;
+    s223:connectsThrough bldg:YIyWLlGd ;
+    s223:hasMedium s223:Fluid-Water ;
+    s223:isConnectionPointOf bldg:jFDVcpIe ;
+    visu:relativeX "0.5"^^xsd:float ;
+    visu:relativeY "0.0"^^xsd:float .
+
+bldg:TtnRnvSA a s223:InletConnectionPoint ;
+    s223:connectsThrough bldg:ZhdhpRqW ;
+    s223:hasMedium s223:Water-HotWater ;
+    s223:isConnectionPointOf bldg:CvwBhsMp ;
+    visu:relativeX "0"^^xsd:float ;
+    visu:relativeY "0.5"^^xsd:float .
+
+bldg:UmdHdTbG a s223:Pipe ;
+    s223:connectsAt bldg:iwhkfrfa,
+        bldg:uUJpzMRI .
+
+bldg:XXgUGuJc a s223:Pipe ;
+    s223:connectsAt bldg:JhCTuAFw,
+        bldg:xYYBkzht .
+
+bldg:XdNlQPhc a s223:OutletConnectionPoint ;
+    s223:connectsThrough bldg:ZhdhpRqW ;
+    s223:hasMedium s223:Water-HotWater ;
+    s223:isConnectionPointOf bldg:fTRIdClR ;
+    visu:relativeX "1"^^xsd:float ;
+    visu:relativeY "0.5"^^xsd:float .
+
+bldg:YIyWLlGd a s223:Pipe ;
+    s223:connectsAt bldg:DhVcypLw,
+        bldg:RqFJpHFa .
+
+bldg:ZhdhpRqW a s223:Pipe ;
+    s223:connectsAt bldg:TtnRnvSA,
+        bldg:XdNlQPhc .
+
+bldg:ZvOwhXUH a s223:OutletConnectionPoint ;
+    s223:connectsThrough bldg:ysGlOqjn ;
+    s223:hasMedium s223:Water-HotWater ;
+    s223:isConnectionPointOf bldg:oQiuSoTO ;
+    visu:relativeX "0.5"^^xsd:float ;
+    visu:relativeY "0.0"^^xsd:float .
+
+bldg:aioKqgeP a s223:Junction ;
+    s223:hasConnectionPoint bldg:DOSnQJyh,
+        bldg:fqzleYbk ;
+    s223:hasRole s223:Role-Supply ;
+    visu:positionX "465.0"^^xsd:float ;
+    visu:positionY "815.0"^^xsd:float ;
+    visu:rotation 0.0 .
+
+bldg:avRExsem a s223:OutletConnectionPoint ;
+    s223:connectsThrough bldg:mJTcUsVd ;
+    s223:hasMedium s223:Fluid-Water ;
+    s223:isConnectionPointOf bldg:PCBqUOfw ;
+    visu:relativeX "0.0"^^xsd:float ;
+    visu:relativeY "0.5"^^xsd:float .
+
+bldg:cVZizpCW a s223:InletConnectionPoint ;
+    s223:connectsThrough bldg:mJTcUsVd ;
+    s223:hasMedium s223:Fluid-Water ;
+    s223:isConnectionPointOf bldg:jFDVcpIe ;
+    visu:relativeX "1.0"^^xsd:float ;
+    visu:relativeY "0.5"^^xsd:float .
+
+bldg:csNjMZkV a s223:InletConnectionPoint ;
+    s223:connectsThrough bldg:GXnqFEZS ;
+    s223:hasMedium s223:Fluid-Water ;
+    s223:isConnectionPointOf bldg:gRXmHPQP ;
+    visu:relativeX "0.0"^^xsd:float ;
+    visu:relativeY "0.5"^^xsd:float .
+
+bldg:fqzleYbk a s223:OutletConnectionPoint ;
+    s223:connectsThrough bldg:RlOJtnxj ;
+    s223:hasMedium s223:Water-HotWater ;
+    s223:isConnectionPointOf bldg:aioKqgeP ;
+    visu:relativeX "1.0"^^xsd:float ;
+    visu:relativeY "0.5"^^xsd:float .
+
+bldg:iwhkfrfa a s223:OutletConnectionPoint ;
+    s223:connectsThrough bldg:UmdHdTbG ;
+    s223:hasMedium s223:Water-HotWater ;
+    s223:isConnectionPointOf bldg:CvwBhsMp ;
+    visu:relativeX "1"^^xsd:float ;
+    visu:relativeY "0.5"^^xsd:float .
+
+bldg:lALeiXGk a s223:OutletConnectionPoint ;
+    s223:connectsThrough bldg:FbqqkLMr ;
+    s223:hasMedium s223:Fluid-Water ;
+    s223:isConnectionPointOf bldg:pRkmGCdj ;
+    visu:relativeX "1.0"^^xsd:float ;
+    visu:relativeY "0.5"^^xsd:float .
+
+bldg:mJTcUsVd a s223:Pipe ;
+    s223:connectsAt bldg:avRExsem,
+        bldg:cVZizpCW .
+
+bldg:pRkmGCdj a s223:Junction ;
+    s223:hasConnectionPoint bldg:IeDIrqry,
+        bldg:lALeiXGk ;
+    s223:hasRole s223:Role-Return ;
+    visu:positionX "965.0"^^xsd:float ;
+    visu:positionY "890.0"^^xsd:float ;
+    visu:rotation 180.0 .
+
+bldg:sZjstcIl a s223:OutletConnectionPoint ;
+    s223:connectsThrough bldg:ufIUsDFz ;
+    s223:hasMedium s223:Water-HotWater ;
+    s223:isConnectionPointOf bldg:oQiuSoTO ;
+    visu:relativeX "1.0"^^xsd:float ;
+    visu:relativeY "0.5"^^xsd:float .
+
+bldg:skPRrjif a s223:OutletConnectionPoint ;
+    s223:connectsThrough bldg:GXnqFEZS ;
+    s223:hasMedium s223:Fluid-Water ;
+    s223:isConnectionPointOf bldg:FZxFhkxF ;
+    visu:relativeX "1.0"^^xsd:float ;
+    visu:relativeY "0.5"^^xsd:float .
+
+bldg:uUJpzMRI a s223:InletConnectionPoint ;
+    s223:connectsThrough bldg:UmdHdTbG ;
+    s223:hasMedium s223:Water-HotWater ;
+    s223:isConnectionPointOf bldg:mLXSbtgB ;
+    visu:relativeX "1.0"^^xsd:float ;
+    visu:relativeY "0.5"^^xsd:float .
+
+bldg:ufIUsDFz a s223:Pipe ;
+    s223:connectsAt bldg:KYBDUWzf,
+        bldg:sZjstcIl .
+
+bldg:vMGPwMKY a s223:OutletConnectionPoint ;
+    s223:connectsThrough bldg:wskwcAmY ;
+    s223:hasMedium s223:Fluid-Water ;
+    s223:isConnectionPointOf bldg:jFDVcpIe ;
+    visu:relativeX "0.0"^^xsd:float ;
+    visu:relativeY "0.5"^^xsd:float .
+
+bldg:vjrpmMlB a s223:InletConnectionPoint ;
+    s223:connectsThrough bldg:NXfYonxe ;
+    s223:hasMedium s223:Fluid-Water ;
+    s223:isConnectionPointOf bldg:PCBqUOfw ;
+    visu:relativeX "1.0"^^xsd:float ;
+    visu:relativeY "0.5"^^xsd:float .
+
+bldg:wskwcAmY a s223:Pipe ;
+    s223:connectsAt bldg:IuqcIhRP,
+        bldg:vMGPwMKY .
+
+bldg:xYYBkzht a s223:InletConnectionPoint ;
+    s223:connectsThrough bldg:XXgUGuJc ;
+    s223:hasMedium s223:Water-HotWater ;
+    s223:isConnectionPointOf bldg:VqBvGDls ;
+    visu:relativeX "0.3"^^xsd:float ;
+    visu:relativeY "1"^^xsd:float .
+
+bldg:yXCRWYXY a s223:Junction ;
+    s223:hasConnectionPoint bldg:ApsgnCWn,
+        bldg:GXxJmKWM ;
+    s223:hasRole s223:Role-Return ;
+    visu:positionX "465.0"^^xsd:float ;
+    visu:positionY "890.0"^^xsd:float ;
+    visu:rotation 180.0 .
+
+bldg:ynkzNGzj a s223:Pipe ;
+    s223:connectsAt bldg:ApsgnCWn,
+        bldg:PGhSDiOv .
+
+bldg:ysGlOqjn a s223:Pipe ;
+    s223:connectsAt bldg:PKhYDflC,
+        bldg:ZvOwhXUH .
+
+bldg:FZxFhkxF a s223:Junction ;
+    s223:hasConnectionPoint bldg:IuqcIhRP,
+        bldg:PeOTLbSC,
+        bldg:skPRrjif ;
+    s223:hasRole s223:Role-Return ;
+    visu:positionX "765.0"^^xsd:float ;
+    visu:positionY "890.0"^^xsd:float ;
+    visu:rotation 180.0 .
+
+bldg:IofwFgce a s223:Junction ;
+    s223:hasConnectionPoint bldg:KYBDUWzf,
+        bldg:MPhlkVpQ,
+        bldg:ltMEHLzH ;
+    s223:hasRole s223:Role-Supply ;
+    visu:positionX "840.0"^^xsd:float ;
+    visu:positionY "815.0"^^xsd:float ;
+    visu:rotation 0.0 .
+
+bldg:PCBqUOfw a s223:Junction ;
+    s223:hasConnectionPoint bldg:NWHlZMwW,
+        bldg:avRExsem,
+        bldg:vjrpmMlB ;
+    s223:hasRole s223:Role-Supply ;
+    visu:positionX "765.0"^^xsd:float ;
+    visu:positionY "540.0"^^xsd:float ;
+    visu:rotation 270.0 .
+
+bldg:fTRIdClR a s223:ThreeWayValve ;
+    s223:hasConnectionPoint bldg:DhVcypLw,
+        bldg:PKhYDflC,
+        bldg:XdNlQPhc ;
+    visu:positionX "650.0"^^xsd:float ;
+    visu:positionY "700.0"^^xsd:float ;
+    visu:rotation 630.0 .
+
+bldg:gRXmHPQP a s223:Junction ;
+    s223:hasConnectionPoint bldg:HNGjBhoN,
+        bldg:PGhSDiOv,
+        bldg:csNjMZkV ;
+    s223:hasRole s223:Role-Return ;
+    visu:positionX "590.0"^^xsd:float ;
+    visu:positionY "890.0"^^xsd:float ;
+    visu:rotation 180.0 .
+
+bldg:jFDVcpIe a s223:Junction ;
+    s223:hasConnectionPoint bldg:RqFJpHFa,
+        bldg:cVZizpCW,
+        bldg:vMGPwMKY ;
+    s223:hasRole s223:Role-Supply ;
+    visu:positionX "765.0"^^xsd:float ;
+    visu:positionY "715.0"^^xsd:float ;
+    visu:rotation 270.0 .
+
+bldg:mLXSbtgB a s223:Junction ;
+    s223:hasConnectionPoint bldg:JhCTuAFw,
+        bldg:NIcyQBPL,
+        bldg:uUJpzMRI ;
+    s223:hasRole s223:Role-Supply ;
+    visu:positionX "665.0"^^xsd:float ;
+    visu:positionY "540.0"^^xsd:float ;
+    visu:rotation 90.0 .
+
+bldg:oQiuSoTO a s223:Junction ;
+    s223:hasConnectionPoint bldg:OyPTkhFT,
+        bldg:ZvOwhXUH,
+        bldg:sZjstcIl ;
+    s223:hasRole s223:Role-Supply ;
+    visu:positionX "665.0"^^xsd:float ;
+    visu:positionY "815.0"^^xsd:float ;
+    visu:rotation 0.0 .
+
+bldg:VqBvGDls a s223:HeatingCoil ;
+    s223:hasConnectionPoint bldg:DwnpnWeu,
+        bldg:GGxShzKv,
+        bldg:GpYGtjFE,
+        bldg:xYYBkzht ;
+    visu:positionX "700.0"^^xsd:float ;
+    visu:positionY "400.0"^^xsd:float ;
+    visu:rotation 0.0 .
+

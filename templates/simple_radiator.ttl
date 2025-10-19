@@ -1,0 +1,328 @@
+@prefix bldg: <http://example.org/building#> .
+@prefix s223: <http://data.ashrae.org/standard223#> .
+@prefix visu: <http://example.org/visualization#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+bldg:CPRRCrgz a s223:OutletConnectionPoint ;
+    s223:hasMedium s223:Fluid-Water ;
+    s223:isConnectionPointOf bldg:lnBUmPuV ;
+    visu:relativeX "1.0"^^xsd:float ;
+    visu:relativeY "0.5"^^xsd:float .
+
+bldg:GrfNGtKN a s223:OutletConnectionPoint ;
+    s223:hasMedium s223:Water-HotWater ;
+    s223:isConnectionPointOf bldg:BVfSNezn ;
+    visu:relativeX "1.0"^^xsd:float ;
+    visu:relativeY "0.5"^^xsd:float .
+
+bldg:ausQZmHJ a s223:InletConnectionPoint ;
+    s223:hasMedium s223:Fluid-Water ;
+    s223:isConnectionPointOf bldg:bELNizOj ;
+    visu:relativeX "0.0"^^xsd:float ;
+    visu:relativeY "0.5"^^xsd:float .
+
+bldg:qQxahZrI a s223:OutletConnectionPoint ;
+    s223:hasMedium s223:Water-HotWater ;
+    s223:isConnectionPointOf bldg:JlYOKKHL ;
+    visu:relativeX "0.5"^^xsd:float ;
+    visu:relativeY "1.0"^^xsd:float .
+
+bldg:AAciySgI a s223:InletConnectionPoint ;
+    s223:connectsThrough bldg:GXdIrSxJ ;
+    s223:hasMedium s223:Water-HotWater ;
+    s223:isConnectionPointOf bldg:AHuOKHhy ;
+    visu:relativeX "0"^^xsd:float ;
+    visu:relativeY "0.5"^^xsd:float .
+
+bldg:AHuOKHhy a s223:Radiator ;
+    s223:hasConnectionPoint bldg:AAciySgI,
+        bldg:wtOyIVad ;
+    visu:positionX "875.0"^^xsd:float ;
+    visu:positionY "575.0"^^xsd:float ;
+    visu:rotation 810.0 .
+
+bldg:BQIBWlMn a s223:InletConnectionPoint ;
+    s223:connectsThrough bldg:UMIeYwbZ ;
+    s223:hasMedium s223:Fluid-Water ;
+    s223:isConnectionPointOf bldg:MgCPwYEz ;
+    visu:relativeX "0.0"^^xsd:float ;
+    visu:relativeY "0.5"^^xsd:float .
+
+bldg:CCvWDGTy a s223:Radiator ;
+    s223:hasConnectionPoint bldg:amOIdgCo,
+        bldg:ynplLfVn ;
+    visu:positionX "700.0"^^xsd:float ;
+    visu:positionY "575.0"^^xsd:float ;
+    visu:rotation 810.0 .
+
+bldg:CtMNwvtk a s223:OutletConnectionPoint ;
+    s223:connectsThrough bldg:tgIuNodU ;
+    s223:hasMedium s223:Fluid-Water ;
+    s223:isConnectionPointOf bldg:lnBUmPuV ;
+    visu:relativeX "0.5"^^xsd:float ;
+    visu:relativeY "1.0"^^xsd:float .
+
+bldg:CwbQBRAa a s223:Pump ;
+    s223:hasConnectionPoint bldg:cjbEMSKD,
+        bldg:kdRoXVlg ;
+    visu:positionX "375.0"^^xsd:float ;
+    visu:positionY "475.0"^^xsd:float ;
+    visu:rotation 0.0 .
+
+bldg:DESqeoeF a s223:InletConnectionPoint ;
+    s223:connectsThrough bldg:tgIuNodU ;
+    s223:hasMedium s223:Fluid-Water ;
+    s223:isConnectionPointOf bldg:XMlDgrNC ;
+    visu:relativeX "0.5"^^xsd:float ;
+    visu:relativeY "1.0"^^xsd:float .
+
+bldg:DIDLSalv a s223:InletConnectionPoint ;
+    s223:connectsThrough bldg:XPvKRoFM ;
+    s223:hasMedium s223:Fluid-Water ;
+    s223:isConnectionPointOf bldg:MgCPwYEz ;
+    visu:relativeX "0.5"^^xsd:float ;
+    visu:relativeY "1.0"^^xsd:float .
+
+bldg:GXdIrSxJ a s223:Pipe ;
+    s223:connectsAt bldg:AAciySgI,
+        bldg:pTzxTgYo .
+
+bldg:GbPpYrzY a s223:OutletConnectionPoint ;
+    s223:connectsThrough bldg:dVnDHKQi ;
+    s223:hasMedium s223:Water-HotWater ;
+    s223:isConnectionPointOf bldg:JlYOKKHL ;
+    visu:relativeX "1.0"^^xsd:float ;
+    visu:relativeY "0.5"^^xsd:float .
+
+bldg:KykmArDv a s223:OutletConnectionPoint ;
+    s223:connectsThrough bldg:UMIeYwbZ ;
+    s223:hasMedium s223:Fluid-Water ;
+    s223:isConnectionPointOf bldg:bELNizOj ;
+    visu:relativeX "1.0"^^xsd:float ;
+    visu:relativeY "0.5"^^xsd:float .
+
+bldg:RIvrhyfp a s223:OutletConnectionPoint ;
+    s223:connectsThrough bldg:UKANbAdp ;
+    s223:hasMedium s223:Water-HotWater ;
+    s223:isConnectionPointOf bldg:dzuekXbK ;
+    visu:relativeX "0.5"^^xsd:float ;
+    visu:relativeY "1.0"^^xsd:float .
+
+bldg:RPKXMycU a s223:InletConnectionPoint ;
+    s223:connectsThrough bldg:oujCNTmT ;
+    s223:hasMedium s223:Fluid-Water ;
+    s223:isConnectionPointOf bldg:bELNizOj ;
+    visu:relativeX "0.5"^^xsd:float ;
+    visu:relativeY "1.0"^^xsd:float .
+
+bldg:RknEgdbR a s223:TwoWayValve ;
+    s223:hasConnectionPoint bldg:ssSFAJqO,
+        bldg:vQmAlhYV ;
+    visu:positionX "550.0"^^xsd:float ;
+    visu:positionY "475.0"^^xsd:float ;
+    visu:rotation 0.0 .
+
+bldg:TTlBdZyP a s223:OutletConnectionPoint ;
+    s223:connectsThrough bldg:qEPHusxf ;
+    s223:hasMedium s223:Water-HotWater ;
+    s223:isConnectionPointOf bldg:dzuekXbK ;
+    visu:relativeX "1.0"^^xsd:float ;
+    visu:relativeY "0.5"^^xsd:float .
+
+bldg:UKANbAdp a s223:Pipe ;
+    s223:connectsAt bldg:RIvrhyfp,
+        bldg:amOIdgCo .
+
+bldg:UMIeYwbZ a s223:Pipe ;
+    s223:connectsAt bldg:BQIBWlMn,
+        bldg:KykmArDv .
+
+bldg:XDKXAGsv a s223:InletConnectionPoint ;
+    s223:connectsThrough bldg:yKkJoJIH ;
+    s223:hasMedium s223:Water-HotWater ;
+    s223:isConnectionPointOf bldg:JlYOKKHL ;
+    visu:relativeX "0.0"^^xsd:float ;
+    visu:relativeY "0.5"^^xsd:float .
+
+bldg:XMlDgrNC a s223:Boiler ;
+    s223:hasConnectionPoint bldg:DESqeoeF,
+        bldg:cOeoOjLE ;
+    visu:positionX "175.0"^^xsd:float ;
+    visu:positionY "360.0"^^xsd:float ;
+    visu:rotation 0.0 .
+
+bldg:XPvKRoFM a s223:Pipe ;
+    s223:connectsAt bldg:DIDLSalv,
+        bldg:ynplLfVn .
+
+bldg:XomumrEW a s223:InletConnectionPoint ;
+    s223:connectsThrough bldg:xELtxrWL ;
+    s223:hasMedium s223:Water-HotWater ;
+    s223:isConnectionPointOf bldg:dzuekXbK ;
+    visu:relativeX "0.0"^^xsd:float ;
+    visu:relativeY "0.5"^^xsd:float .
+
+bldg:YoDAJSkA a s223:InletConnectionPoint ;
+    s223:connectsThrough bldg:qEPHusxf ;
+    s223:hasMedium s223:Water-HotWater ;
+    s223:isConnectionPointOf bldg:BVfSNezn ;
+    visu:relativeX "0.0"^^xsd:float ;
+    visu:relativeY "0.5"^^xsd:float .
+
+bldg:amOIdgCo a s223:InletConnectionPoint ;
+    s223:connectsThrough bldg:UKANbAdp ;
+    s223:hasMedium s223:Water-HotWater ;
+    s223:isConnectionPointOf bldg:CCvWDGTy ;
+    visu:relativeX "0"^^xsd:float ;
+    visu:relativeY "0.5"^^xsd:float .
+
+bldg:bcZAncEW a s223:Pipe ;
+    s223:connectsAt bldg:kdRoXVlg,
+        bldg:vQmAlhYV .
+
+bldg:cOeoOjLE a s223:OutletConnectionPoint ;
+    s223:connectsThrough bldg:yKkJoJIH ;
+    s223:hasMedium s223:Water-HotWater ;
+    s223:isConnectionPointOf bldg:XMlDgrNC ;
+    visu:relativeX "0.8"^^xsd:float ;
+    visu:relativeY "1.0"^^xsd:float .
+
+bldg:cjbEMSKD a s223:InletConnectionPoint ;
+    s223:connectsThrough bldg:dVnDHKQi ;
+    s223:hasMedium s223:Water-HotWater ;
+    s223:isConnectionPointOf bldg:CwbQBRAa ;
+    visu:relativeX "0"^^xsd:float ;
+    visu:relativeY "0.5"^^xsd:float .
+
+bldg:dVnDHKQi a s223:Pipe ;
+    s223:connectsAt bldg:GbPpYrzY,
+        bldg:cjbEMSKD .
+
+bldg:eDgRhQOR a s223:InletConnectionPoint ;
+    s223:connectsThrough bldg:ywbFJtFX ;
+    s223:hasMedium s223:Fluid-Water ;
+    s223:isConnectionPointOf bldg:lnBUmPuV ;
+    visu:relativeX "0.0"^^xsd:float ;
+    visu:relativeY "0.5"^^xsd:float .
+
+bldg:kdRoXVlg a s223:OutletConnectionPoint ;
+    s223:connectsThrough bldg:bcZAncEW ;
+    s223:hasMedium s223:Water-HotWater ;
+    s223:isConnectionPointOf bldg:CwbQBRAa ;
+    visu:relativeX "1"^^xsd:float ;
+    visu:relativeY "0.5"^^xsd:float .
+
+bldg:oujCNTmT a s223:Pipe ;
+    s223:connectsAt bldg:RPKXMycU,
+        bldg:wtOyIVad .
+
+bldg:pTzxTgYo a s223:OutletConnectionPoint ;
+    s223:connectsThrough bldg:GXdIrSxJ ;
+    s223:hasMedium s223:Water-HotWater ;
+    s223:isConnectionPointOf bldg:BVfSNezn ;
+    visu:relativeX "0.5"^^xsd:float ;
+    visu:relativeY "1.0"^^xsd:float .
+
+bldg:qEPHusxf a s223:Pipe ;
+    s223:connectsAt bldg:TTlBdZyP,
+        bldg:YoDAJSkA .
+
+bldg:rinARIhm a s223:OutletConnectionPoint ;
+    s223:connectsThrough bldg:ywbFJtFX ;
+    s223:hasMedium s223:Fluid-Water ;
+    s223:isConnectionPointOf bldg:MgCPwYEz ;
+    visu:relativeX "1.0"^^xsd:float ;
+    visu:relativeY "0.5"^^xsd:float .
+
+bldg:ssSFAJqO a s223:OutletConnectionPoint ;
+    s223:connectsThrough bldg:xELtxrWL ;
+    s223:hasMedium s223:Water-HotWater ;
+    s223:isConnectionPointOf bldg:RknEgdbR ;
+    visu:relativeX "1"^^xsd:float ;
+    visu:relativeY "0.5"^^xsd:float .
+
+bldg:tgIuNodU a s223:Pipe ;
+    s223:connectsAt bldg:CtMNwvtk,
+        bldg:DESqeoeF .
+
+bldg:vQmAlhYV a s223:InletConnectionPoint ;
+    s223:connectsThrough bldg:bcZAncEW ;
+    s223:hasMedium s223:Water-HotWater ;
+    s223:isConnectionPointOf bldg:RknEgdbR ;
+    visu:relativeX "0"^^xsd:float ;
+    visu:relativeY "0.5"^^xsd:float .
+
+bldg:wtOyIVad a s223:OutletConnectionPoint ;
+    s223:connectsThrough bldg:oujCNTmT ;
+    s223:hasMedium s223:Fluid-Water ;
+    s223:isConnectionPointOf bldg:AHuOKHhy ;
+    visu:relativeX "1"^^xsd:float ;
+    visu:relativeY "0.5"^^xsd:float .
+
+bldg:xELtxrWL a s223:Pipe ;
+    s223:connectsAt bldg:XomumrEW,
+        bldg:ssSFAJqO .
+
+bldg:yKkJoJIH a s223:Pipe ;
+    s223:connectsAt bldg:XDKXAGsv,
+        bldg:cOeoOjLE .
+
+bldg:ynplLfVn a s223:OutletConnectionPoint ;
+    s223:connectsThrough bldg:XPvKRoFM ;
+    s223:hasMedium s223:Fluid-Water ;
+    s223:isConnectionPointOf bldg:CCvWDGTy ;
+    visu:relativeX "1"^^xsd:float ;
+    visu:relativeY "0.5"^^xsd:float .
+
+bldg:ywbFJtFX a s223:Pipe ;
+    s223:connectsAt bldg:eDgRhQOR,
+        bldg:rinARIhm .
+
+bldg:BVfSNezn a s223:Junction ;
+    s223:hasConnectionPoint bldg:GrfNGtKN,
+        bldg:YoDAJSkA,
+        bldg:pTzxTgYo ;
+    visu:positionX "890.0"^^xsd:float ;
+    visu:positionY "490.0"^^xsd:float ;
+    visu:rotation 0.0 .
+
+bldg:JlYOKKHL a s223:Junction ;
+    s223:hasConnectionPoint bldg:GbPpYrzY,
+        bldg:XDKXAGsv,
+        bldg:qQxahZrI ;
+    visu:positionX "215.0"^^xsd:float ;
+    visu:positionY "490.0"^^xsd:float ;
+    visu:rotation 0.0 .
+
+bldg:MgCPwYEz a s223:Junction ;
+    s223:hasConnectionPoint bldg:BQIBWlMn,
+        bldg:DIDLSalv,
+        bldg:rinARIhm ;
+    visu:positionX "715.0"^^xsd:float ;
+    visu:positionY "690.0"^^xsd:float ;
+    visu:rotation 180.0 .
+
+bldg:bELNizOj a s223:Junction ;
+    s223:hasConnectionPoint bldg:KykmArDv,
+        bldg:RPKXMycU,
+        bldg:ausQZmHJ ;
+    visu:positionX "890.0"^^xsd:float ;
+    visu:positionY "690.0"^^xsd:float ;
+    visu:rotation 180.0 .
+
+bldg:dzuekXbK a s223:Junction ;
+    s223:hasConnectionPoint bldg:RIvrhyfp,
+        bldg:TTlBdZyP,
+        bldg:XomumrEW ;
+    visu:positionX "715.0"^^xsd:float ;
+    visu:positionY "490.0"^^xsd:float ;
+    visu:rotation 0.0 .
+
+bldg:lnBUmPuV a s223:Junction ;
+    s223:hasConnectionPoint bldg:CPRRCrgz,
+        bldg:CtMNwvtk,
+        bldg:eDgRhQOR ;
+    visu:positionX "190.0"^^xsd:float ;
+    visu:positionY "690.0"^^xsd:float ;
+    visu:rotation 180.0 .
+

@@ -1,6 +1,6 @@
 # Open223 Builder – Diagram Editor
 
-A desktop app to model building systems with Semantic 223 (s223). You drag components onto a canvas, connect them, group them into systems, annotate with properties, and save/load as RDF/Turtle. It includes a grid canvas, an entities browser, a scene hierarchy, a properties panel, and full undo/redo.
+A desktop app to model building systems with the 223p Ontology (https://open223.info/).
 
 ## Use
 
@@ -8,7 +8,7 @@ The window shows entities and scene hierarchy (left), canvas (center), and prope
 
 ![alt text](docs/gui.png "Title")
 
-Drag entities to the canvas. Select items to edit their properties. Start a connection by dragging from one connection point to another; media and point-type compatibility are enforced. Right-click for actions like rotate, delete, copy/paste, create system, and manage relationships. Toggle the grid and location lines from the toolbar. Save and load Turtle files (also via drag-and-drop).
+You drag components onto a canvas, connect them, group them into systems, annotate with properties, and save/load as RDF/Turtle. It includes a grid canvas, an entities browser, a scene hierarchy, a properties panel, and full undo/redo.
 
 ## Save/Load Format
 
