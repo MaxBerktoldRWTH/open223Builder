@@ -1,11 +1,14 @@
 from typing import List
 from rdflib import URIRef
-from open223Builder.namespaces import S223, QUDT, QUDTQK, QUDTU
+from open223Builder.ontology.namespaces import S223, QUDT, QUDTQK, QUDTU
 
 
 __all__ = [
     "domains",
     "roles",
+    "aspects",
+    "units",
+    "quantity_kinds",
 ]
 
 
@@ -109,3 +112,4 @@ quantity_kinds: List[URIRef] = [
 if __name__ == '__main__':
 
     print(QUDT.DeG_C)
+

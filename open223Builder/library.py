@@ -1,6 +1,5 @@
-import rdflib
-from open223Builder.namespaces import S223, QUDTU, QUDTQK
-from PyQt5.QtGui import qBlue
+from open223Builder.ontology.namespaces import S223, QUDTU, QUDTQK
+
 
 svg_library = {
     S223.Junction: """
@@ -402,6 +401,15 @@ port_library = {
         {'type_uri': S223.InletConnectionPoint, 'medium': S223['Fluid-Water'], 'position': (0, 0.5)},
         {'type_uri': S223.OutletConnectionPoint, 'medium': S223['Fluid-Water'], 'position': (1, 0.5)},
     ],
+    S223.Junction: [
+        {'type_uri': S223.InletConnectionPoint, 'medium': S223['Fluid-Water'], 'position': (0, 0.5)},
+        {'type_uri': S223.OutletConnectionPoint, 'medium': S223['Fluid-Water'], 'position': (1, 0.5)},
+        {'type_uri': S223.OutletConnectionPoint, 'medium': S223['Fluid-Water'], 'position': (0.5, 1)},
+    ],
+    S223.TemperatureSensor: [
+        {'type_uri': S223.InletConnectionPoint, 'medium': S223['Fluid-Water'], 'position': (0, 0.5)},
+        {'type_uri': S223.OutletConnectionPoint, 'medium': S223['Fluid-Water'], 'position': (1, 0.5)},
+    ],
     S223.ThreeWayValve: [
         {'type_uri': S223.InletConnectionPoint, 'medium': S223['Fluid-Water'], 'position': (0, 0.5)},
         {'type_uri': S223.OutletConnectionPoint, 'medium': S223['Fluid-Water'], 'position': (1, 0.5)},
@@ -522,8 +530,3 @@ qudt_quantity_kinds = {
     # Add more
 }
 
-
-# tracking nr
-# 1z94f199347734778
-# ups
-# 06966405060

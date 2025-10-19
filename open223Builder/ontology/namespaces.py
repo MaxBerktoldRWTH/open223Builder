@@ -2,8 +2,8 @@ import random
 import string
 
 from rdflib import Namespace, URIRef, Graph
-from rdflib.namespace import DefinedNamespace
 from rdflib import RDF, RDFS, XSD
+from rdflib.namespace import DefinedNamespace
 
 S223 = Namespace("http://data.ashrae.org/standard223#")
 VISU = Namespace("http://example.org/visualization#")
@@ -25,6 +25,7 @@ __all__ = [
     "QUDTU",
     "bindings"
 ]
+
 bindings = {
     RDF: "rdf",
     RDFS: "rdfs",
