@@ -8,6 +8,7 @@ The window shows entities and scene hierarchy (left), canvas (center), and prope
 
 ![alt text](docs/gui.png "Title")
 
+
 You drag components onto a canvas, connect them, group them into systems, annotate with properties, and save/load as RDF/Turtle. It includes a grid canvas, an entities browser, a scene hierarchy, a properties panel, and full undo/redo.
 
 ## Save/Load Format
@@ -16,16 +17,21 @@ Models are serialized to Turtle using s223 (entities/relations), VISU (visual me
 
 ## Shortcuts
 
-Ctrl+S (Save), Ctrl+O (Load), Ctrl+Z/Y (Undo/Redo), Ctrl+C/V (Copy/Paste), Ctrl+A (Select all), R (Rotate 90°), Ctrl+G (Create system), Delete (Remove), Ctrl+L (Location lines), Ctrl + Mouse Wheel (Zoom).
+- Ctrl+S (Save)
+- Ctrl+O (Load)
+- Ctrl+Z/Y (Undo/Redo)
+- Ctrl+C/V (Copy/Paste)
+- Ctrl+A (Select all)
+- R (Rotate 90°)
+- Ctrl+G (Create system)
+- Delete (Remove)
+- Ctrl+L (Location lines)
+- Ctrl + Mouse Wheel (Zoom)
 
 
 ## Notes
 
 Snapping to grid is supported for item and property moves. PhysicalSpace can contain PhysicalSpace and enclose DomainSpace. ConnectableItem can contain ConnectableItem (not DomainSpace/PhysicalSpace). Equipment can set a PhysicalSpace as its physical location and any connectable/connection/connection point as its observation location.
-
-## License
-
-Add your license here.
 
 ## Attribution
 
