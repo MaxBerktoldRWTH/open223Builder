@@ -6,10 +6,7 @@ A desktop app to model building systems with Semantic 223 (s223). You drag compo
 
 The window shows entities and scene hierarchy (left), canvas (center), and properties (right), with menu and toolbar on top.
 
-```
 ![alt text](docs/gui.png "Title")
-```
-
 
 Drag entities to the canvas. Select items to edit their properties. Start a connection by dragging from one connection point to another; media and point-type compatibility are enforced. Right-click for actions like rotate, delete, copy/paste, create system, and manage relationships. Toggle the grid and location lines from the toolbar. Save and load Turtle files (also via drag-and-drop).
 
